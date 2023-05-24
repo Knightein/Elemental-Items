@@ -1,0 +1,4 @@
+name: ElementalItems
+version: '${version}'
+main: com.knightein.elementalitems.ElementalItems
+api-version: 1.18
