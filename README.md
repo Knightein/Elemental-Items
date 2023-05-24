@@ -3,6 +3,11 @@ Programmed by Knightein.
 
 Link to YouTube: https://www.youtube.com/@knightein
 
+### JAR File
+The Jar file can be found here,
+
+https://github.com/Knightein/Elemental-Items/tree/master/jar
+
 ## Features and Commands
 ### Commands
 To get any of the Elemental Bows, run the following command:
