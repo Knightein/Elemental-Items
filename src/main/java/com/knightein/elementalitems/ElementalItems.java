@@ -5,6 +5,7 @@ import cloud.commandframework.execution.AsynchronousCommandExecutionCoordinator;
 import cloud.commandframework.meta.SimpleCommandMeta;
 import cloud.commandframework.paper.PaperCommandManager;
 import com.knightein.elementalitems.command.GetElementalBows;
+import com.knightein.elementalitems.gameplay.ElementalBow;
 import org.bukkit.command.CommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -41,6 +42,7 @@ public final class ElementalItems extends JavaPlugin {
         } catch (Exception e) {
             throw new RuntimeException(e);
         }
+        getServer().getPluginManager().registerEvents(new ElementalBow.Events(), this);
     }
 
     @Override
